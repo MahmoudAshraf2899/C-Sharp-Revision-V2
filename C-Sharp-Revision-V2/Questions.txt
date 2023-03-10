@@ -1,0 +1,96 @@
+- when to use setter with dto classes ?
+Answer :
+ In some cases, it is desirable to use only setters with DTO classes for security reasons.
+
+By using only setters in DTO classes, the API ensures that client-side code cannot modify the DTO objects in unexpected ways. For example, if a DTO class has a read-only property that is computed on the server, the API can ensure that the client cannot modify the value of that property.
+
+Additionally, using only setters in DTO classes can help ensure that sensitive data, such as passwords or tokens, is not returned to the client in response objects.
+
+In summary, using only setters with DTO classes is a best practice in ASP.NET Core Web API when it is necessary to prevent client-side code from modifying the DTO objects in unexpected ways or when it is necessary to keep sensitive data confidential.
+
+--------------------------------------------------------
+-What are the types of Dependency Injection?
+Answer:
+--------------------------------------------------------
+-What Are The Differences between reference type and value type in c# ?
+Answer :
+Values Types => 
+* it holds the data with in it's own memory allocation
+* Stored in the stack part in memory and 
+Reference Types = > It works as a pointer to another memory location that holds the real data and it stored in the heap part in memory
+----------------------------------------------------------
+-What are the differences between Var and dynamic ?
+Answer :
+* Compiler Work with Dynamic Keyword As Object
+----------------------------------------------------------
+-Char Data Type is Value type or Ref type ?
+Answer : It's Value Type and Stored in Stack
+----------------------------------------------------------
+-What Are The Differences between Struct and class ?
+Answer : 
+- Strcus Has Constructor But It Should Have Parameters
+- Struct Cannot initialize Values To Fields
+- Struct Used For Small Data with in (16mb)
+- Struct Can have Properties Like Class
+- Struct  Doesn't Support Finalizers
+- Struct do not support inheritance
+- Struct is Value Type (Strored In Stack  wither it's inheritance or data)
+- Class Object is Value Type Stored in Stack (Inhertiance)
+------------------------------------------------------------
+-What Are The Differences Between Abstract Class and sealed class ?
+Answer :
+-In Abstract Class I Cannot Make an Object but i can make inheritance
+-In Sealed Class I Can Make an Object but i cannot make inheritance from it
+------------------------------------------------------------
+-What Are the differences between overriding and overloading?
+Answer :
+-----------------------------------------------------------
+What are the differences between virtual member and abstract member?
+Answer : 
+abstract member doesn't have body code . and the implement of body at the inherited class not the parent
+virtual member has body code that i could update on it or update on the inherited class
+---------------------------------------------------------------
+-What are the types of Classes in C#?
+Answer :
+Here are the types of classes in C#:
+
+1-Public Class: A public class can be accessed from any other code in the application.
+
+2-Private Class: A private class can only be accessed within the same class or structure.
+
+3-Internal Class: An internal class can be accessed by any code in the same assembly, but not from other assemblies.
+
+4-Abstract Class: An abstract class cannot be instantiated, but it can be inherited. It is used as a base class for other classes.
+
+5-Sealed Class: A sealed class cannot be inherited. It is used to prevent further derivation of a class.
+
+6-Static Class: A static class can only contain static members, and cannot be instantiated. It is used to group related functionality.
+
+7-Partial Class: A partial class allows a class to be defined in multiple files. This is useful for separating the implementation of a class into different files.
+
+8-Generic Class: A generic class is a class that can work with any data type. It is defined using a type parameter that is replaced with an actual type at runtime.
+
+9- Nested Class: A nested class is a class that is defined inside another class. It is used to encapsulate related functionality within a class.
+
+(***) Concrete Class is not a specific type of class in C#. It is a general term used to refer to any class that can be instantiated (i.e., an object can be created from it) and that provides a complete implementation of its functionality.
+
+Most of the classes in C# are concrete classes. They can be public, private, internal, or any other type of class, but they all have one thing in common: they can be instantiated and used to create objects.
+
+So, while "concrete class" is not a separate type of class in C#, it is a useful term to describe the typical behavior and characteristics of most classes in C#.
+---------------------------------------------------------------
+-what are the differences between abstrac type and abstract method ?
+Answer :
+---------------------------------------------------------------
+what are the differences between abstract class and interface ?
+Answer :
+(***)Abstract(***)
+ 
+---------------------------------------------------------------
+what are the benefits of using Generics ?
+Answer :
+---------------------------------------------------------------
+
+
+
+
+
