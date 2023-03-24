@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectOne.Classes
+namespace OOP.Services
 {
     //Class Modifier || Class || Class Name
     //Access Modifer (Public , Private , Internal) //Internal is The Default
-    public class Employee
+    internal class Employee
     {
         //Constant is Best Practice to be in the top of class's body
         //Access Modifier > Const > Data Type > Constant Name

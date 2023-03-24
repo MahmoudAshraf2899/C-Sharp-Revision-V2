@@ -1,11 +1,11 @@
-﻿namespace ProjectOne
+﻿namespace ENUM
 {
-    public partial class Program
+    internal partial class Program
     {
         enum Month
         {
             //If we Didn't Insert Value it will be by Default = 0
-            JAN =1,
+            JAN = 1,
             FEB,
             MAR,
             APR,

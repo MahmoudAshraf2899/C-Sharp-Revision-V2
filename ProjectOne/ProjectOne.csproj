@@ -13,4 +13,8 @@
     <ProjectReference Include="..\ProjectHR\ProjectHR.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+
 </Project>

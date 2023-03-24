@@ -1,6 +1,12 @@
-﻿namespace ProjectOne
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Constructors.Services
 {
-    public class Date
+    internal class Date
     {
         public Date(int day, int month, int year)
         {
