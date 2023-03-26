@@ -19,29 +19,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assemblies", "Assemblies\As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionAndMetaData", "ReflectionAndMetaData\ReflectionAndMetaData.csproj", "{235A8396-BEFA-4F76-B8DC-7096529C04BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{8771A0D3-0ECC-4668-8D4A-F4ACA44A5825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{8771A0D3-0ECC-4668-8D4A-F4ACA44A5825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expressions", "Expressions\Expressions.csproj", "{46ACAF75-AC1F-427E-A9BA-42C585BEF697}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expressions", "Expressions\Expressions.csproj", "{46ACAF75-AC1F-427E-A9BA-42C585BEF697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "casting_And_typeConversion", "casting_And_typeConversion\casting_And_typeConversion.csproj", "{58833719-67C0-4FB2-A8B5-D100B2C82F15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "casting_And_typeConversion", "casting_And_typeConversion\casting_And_typeConversion.csproj", "{58833719-67C0-4FB2-A8B5-D100B2C82F15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{872F39E7-36A1-49B3-9B70-8593A4488EC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP", "OOP\OOP.csproj", "{872F39E7-36A1-49B3-9B70-8593A4488EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{3FAEE4D9-1542-4264-B89C-2251EBBFBD6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{3FAEE4D9-1542-4264-B89C-2251EBBFBD6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{AEDBA1EA-B426-480A-8893-5E4C2ED6C761}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{AEDBA1EA-B426-480A-8893-5E4C2ED6C761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "property_And_Encapsulation", "property_And_Encapsulation\property_And_Encapsulation.csproj", "{264312CF-A7BC-46D2-9794-87D1EDAA9B38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "property_And_Encapsulation", "property_And_Encapsulation\property_And_Encapsulation.csproj", "{264312CF-A7BC-46D2-9794-87D1EDAA9B38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{250C8604-7BC6-49E1-86D2-F2DFFD279333}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{250C8604-7BC6-49E1-86D2-F2DFFD279333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{F345835A-0EC7-4EBD-ADDE-FD5199378593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{F345835A-0EC7-4EBD-ADDE-FD5199378593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operatorOverloading", "operatorOverloading\operatorOverloading.csproj", "{FC8AB729-A726-4AA0-83FA-D0D3E2BEBA72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operatorOverloading", "operatorOverloading\operatorOverloading.csproj", "{FC8AB729-A726-4AA0-83FA-D0D3E2BEBA72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENUM", "ENUM\ENUM.csproj", "{4F5D1E36-8948-412E-A5F7-616466A05A57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ENUM", "ENUM\ENUM.csproj", "{4F5D1E36-8948-412E-A5F7-616466A05A57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{EEEFDCAE-9207-4271-95F2-5042752493BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{EEEFDCAE-9207-4271-95F2-5042752493BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\Attributes.csproj", "{DF67EE4A-D5AE-4B1C-AC78-89BE210C9A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lists_And_Dictionaries", "lists_And_Dictionaries\lists_And_Dictionaries.csproj", "{A7646A1E-2479-4ED4-A575-180F2949D9EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{1AF554FF-7351-450A-9957-940D357795F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{CCE607D8-DF48-4959-842F-DCF07D8FA38A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +137,22 @@ Global
 		{EEEFDCAE-9207-4271-95F2-5042752493BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEEFDCAE-9207-4271-95F2-5042752493BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEEFDCAE-9207-4271-95F2-5042752493BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF67EE4A-D5AE-4B1C-AC78-89BE210C9A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF67EE4A-D5AE-4B1C-AC78-89BE210C9A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF67EE4A-D5AE-4B1C-AC78-89BE210C9A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF67EE4A-D5AE-4B1C-AC78-89BE210C9A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7646A1E-2479-4ED4-A575-180F2949D9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7646A1E-2479-4ED4-A575-180F2949D9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7646A1E-2479-4ED4-A575-180F2949D9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7646A1E-2479-4ED4-A575-180F2949D9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF554FF-7351-450A-9957-940D357795F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF554FF-7351-450A-9957-940D357795F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF554FF-7351-450A-9957-940D357795F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF554FF-7351-450A-9957-940D357795F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE607D8-DF48-4959-842F-DCF07D8FA38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE607D8-DF48-4959-842F-DCF07D8FA38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE607D8-DF48-4959-842F-DCF07D8FA38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE607D8-DF48-4959-842F-DCF07D8FA38A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
