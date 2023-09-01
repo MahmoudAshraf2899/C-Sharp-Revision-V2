@@ -77,7 +77,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lists&Dictionaries_V2", "Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parameter_Passing_by_Value,_Reference_and_Out", "Parameter_Passing_by_Value,_Reference_and_Out\Parameter_Passing_by_Value,_Reference_and_Out.csproj", "{C1B53155-ADBF-4F2F-BF9C-1F0A73A9F3BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSets_SortedSets", "HashSet\HashSets_SortedSets.csproj", "{F16A2CF9-ABE3-4338-B37B-671229D6EFA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSets_SortedSets", "HashSet\HashSets_SortedSets.csproj", "{F16A2CF9-ABE3-4338-B37B-671229D6EFA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuples", "Tubles\Tuples.csproj", "{1DB7BDA3-1468-432D-9CBD-DA437A642CC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{F16A2CF9-ABE3-4338-B37B-671229D6EFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F16A2CF9-ABE3-4338-B37B-671229D6EFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F16A2CF9-ABE3-4338-B37B-671229D6EFA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB7BDA3-1468-432D-9CBD-DA437A642CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB7BDA3-1468-432D-9CBD-DA437A642CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB7BDA3-1468-432D-9CBD-DA437A642CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB7BDA3-1468-432D-9CBD-DA437A642CC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
