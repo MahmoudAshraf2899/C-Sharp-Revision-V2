@@ -9,5 +9,4 @@ FacilityDistanceCalculator.GetFacilityLocationsInfov2("Hospital",out name,out di
 Console.WriteLine($"{name}.....{distanceInKM.ToString("F2")} km for v2");
 Console.WriteLine("---------Tuples-----------");
 
-
 Console.ReadKey();

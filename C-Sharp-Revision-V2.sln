@@ -81,6 +81,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSets_SortedSets", "Hash
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuples", "Tubles\Tuples.csproj", "{1DB7BDA3-1468-432D-9CBD-DA437A642CC1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{B8F54BF9-9DB2-4B16-B4E2-45B14B53841C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_Delegate_Type", "Generic_Delegate_Type\Generic_Delegate_Type.csproj", "{BF8FA249-E6E6-492C-B83B-C4B9087CF4C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +247,14 @@ Global
 		{1DB7BDA3-1468-432D-9CBD-DA437A642CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DB7BDA3-1468-432D-9CBD-DA437A642CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DB7BDA3-1468-432D-9CBD-DA437A642CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F54BF9-9DB2-4B16-B4E2-45B14B53841C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F54BF9-9DB2-4B16-B4E2-45B14B53841C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F54BF9-9DB2-4B16-B4E2-45B14B53841C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F54BF9-9DB2-4B16-B4E2-45B14B53841C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8FA249-E6E6-492C-B83B-C4B9087CF4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8FA249-E6E6-492C-B83B-C4B9087CF4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8FA249-E6E6-492C-B83B-C4B9087CF4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8FA249-E6E6-492C-B83B-C4B9087CF4C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
