@@ -1,4 +1,5 @@
 ﻿using System;
+using Extension_Method.Services;
 
 namespace Extension_Method
 {
@@ -6,46 +7,34 @@ namespace Extension_Method
     {
         static void Main(string[] args)
         {
+
+            #region Date Time & Date Time Offset
             DateTime dt = DateTime.Now;
-            Console.WriteLine(dt);//OutPut : yyyy-MM-dd hh:mm:ss
-            Console.WriteLine($"Date Time Now{ dt}");
-            //dt = new DateTime(2021, 03, 01, 11, 30, 00);
-            //Console.WriteLine($"Date Time initialized{ dt }");
+            Console.WriteLine($"DateTime.Now: {dt}");
+            dt = new DateTime(2021, 3, 1, 11, 30, 00);
+            Console.WriteLine($"DateTime : {dt}");
 
-            #region DateTime Offset
-            ////Return Current date and the gap between Current and UTC
-            //DateTimeOffset dts = DateTimeOffset.Now;
-            //Console.WriteLine($"Date Time Offset Now { dts}");
+            DateTimeOffset dts = DateTimeOffset.Now;
+            Console.WriteLine($"DateTimeOffset : {dts}"); //الفرق بين التوقيت الحالي والتوقيت العالمي
 
+            //Display UTC DATE 
+            dts = DateTimeOffset.UtcNow;
+            Console.WriteLine($"UTC Date : {dts}");
+            TimeSpan ts = new TimeSpan(12, 00, 00);
+            dt.Add(ts);
+            Console.WriteLine($"Date After Add Time Span : {dt}");
 
-            ////Return Time At UTC (التوقيت العالمي)
-            //DateTimeOffset dtsNow = DateTimeOffset.UtcNow;
-            //Console.WriteLine($"Date Time Offset UTC Now { dtsNow}"); 
             #endregion
-            #region Add Methods With Date Time
-            //TimeSpan ts = new TimeSpan(02, 15, 00);
-            //var addSpanDate = dt.Add(ts);
-            //Console.WriteLine($"Date After Using Add Method : {addSpanDate}");
-
-            //DateTime dt2 = DateTime.Now;
-            //var addTwoDaysDate = dt2.AddDays(20);
-            //Console.WriteLine($"Date After Add Two Days : {addTwoDaysDate}"); 
+            #region After Creating Extenstion Method
+            //First Way To Call Extension Method
+            Console.WriteLine($"Date Time From Extension Method : {dt.IsWeekEnd()}");
+            //Second Way To Call Extension Method
+            Console.WriteLine($"Date Time From Extension Method : {DateTimeExtension.IsWeekEnd(dt)}");
             #endregion
 
-            #region Work with Vacation Days
-            var isWeekEnd =  DateTimeHelper.isWeekEnd(dt);
-            if (isWeekEnd)
-                Console.WriteLine("Vacation Day");
-            else
-                Console.WriteLine("Work Day");
-            //Get Days That not vacation
-            var isWeekDay = DateTimeHelper.isWeekDay(dt);
-            if(isWeekDay)
-                Console.WriteLine("OPEN");
-            else
-                Console.WriteLine("Closed");
-            
-            #endregion
+            Pizza pizza = new Pizza();
+            pizza = PizzaExtensions.AddDough(PizzaExtensions.AddSauce(PizzaExtensions.AddCheese(null, true)),"Italian");
+            pizza.AddDough("Italian").AddSauce().AddCheese(true); //Syntax Using Extension Method
 
             Console.ReadKey();
         }
