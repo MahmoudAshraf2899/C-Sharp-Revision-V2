@@ -16,23 +16,11 @@ namespace Threading
             #endregion
 
             #region Sequential
-            var wallet = new Wallet("Mahmoud", 55);
-            wallet.RandomTransaction();
-            Console.WriteLine("--------------------");
-            Console.WriteLine($"{wallet}\n");
-
-
-            wallet.RandomTransaction();
-            Console.WriteLine("--------------------");
-            Console.WriteLine($"{wallet}\n");
+             
 
             #endregion
             #region Declare Thread
-
-            Thread t1 = new Thread(wallet.RandomTransaction);
-            t1.Name = "t1";
-            t1.Start();
-
+             
             #endregion
             Console.ReadKey();
         }
